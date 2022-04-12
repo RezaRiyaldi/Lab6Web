@@ -1,0 +1,12 @@
+.my-container{
+    /* background-color: red; */
+    padding: 10px 25px !important;
+}
+
+.active, .nav-link:hover {
+    background-color: rgb(84, 169, 253);
+}
+
+nav, .container-fluid {
+    padding: 0 !important;
+}
