@@ -49,160 +49,149 @@
 1. Tambahkan kodingan didalam file `index.html` tersebut.
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Sederhana</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Components -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <title>Layout Sederhana</title>
 </head>
 
 <body>
-
-    <div class="container mt-5">
-        <div class="card shadow">
-            <h2 class="m-4" style="color: rgb(170, 170, 170);">Layout Sederhana</h2>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link my-container active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link my-container" href="#">Artikel</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link my-container" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link my-container" href="#">Kontak</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <!-- Jumbotron -->
-            <div class="bg-light p-4">
-                <h1 class="display-4">Hello World</h1>
-                <hr>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dolor, accusamus officia neque
-                    sapiente repellat quia nulla laboriosam tempore. Dolor, laboriosam perspiciatis! Magnam esse aliquam
-                    eveniet voluptates, ratione doloribus minus quia vero excepturi distinctio non dolor, suscipit
-                    doloremque expedita itaque fuga repudiandae molestias officiis nesciunt laborum numquam ab voluptas
-                    magni?</p>
-                <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-
-            <!-- Content -->
-            <div class="row m-0 py-3">
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-3">
-                                <div class="card-body text-center">
-                                    <img src="https://dummyimage.com/120x120/f7b42e/fff.png" alt=""
-                                        class="rounded-circle mb-3">
-                                    <h4>Heading</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
-                                    <a href="#" class="btn btn-secondary">View Detail</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-3">
-                                <div class="card-body text-center">
-                                    <img src="https://dummyimage.com/120x120/5ea1f2/fff.png" alt=""
-                                        class="rounded-circle mb-3">
-                                    <h4>Heading</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
-                                    <a href="#" class="btn btn-secondary">View Detail</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="card mb-3">
-                                <div class="card-body text-center">
-                                    <img src="https://dummyimage.com/120x120/65f05d/fff.png" alt=""
-                                        class="rounded-circle mb-3">
-                                    <h4>Heading</h4>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ducimus!</p>
-                                    <a href="#" class="btn btn-secondary">View Detail</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card p-3 mt-4">
-                        <div class="card-body">
-                            <h3 class="text-dark mb-3">First Featurette Heading</h3>
-                            <div class="row">
-                                <div class="col-md-3"> 
-                                    <img src="https://dummyimage.com/150x150/757575/fff.png" class="rounded mb-3" alt="">
-                                </div>
-                                <div class="col-md-9">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo atque ratione pariatur iusto. Explicabo odit corrupti illum. Numquam eligendi consectetur non odio ex maxime voluptates inventore vero voluptatem, repellat possimus. Iusto laudantium necessitatibus vero quis quo, quibusdam error saepe? Quisquam animi perspiciatis commodi rerum ducimus aliquid iusto eveniet aperiam blanditiis.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-3 my-4">
-                        <div class="card-body">
-                            <h3 class="text-dark mb-3">First Featurette Heading</h3>
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo atque ratione pariatur iusto. Explicabo odit corrupti illum. Numquam eligendi consectetur non odio ex maxime voluptates inventore vero voluptatem, repellat possimus. Iusto laudantium necessitatibus vero quis quo, quibusdam error saepe? Quisquam animi perspiciatis commodi rerum ducimus aliquid iusto eveniet aperiam blanditiis.</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="https://dummyimage.com/150x150/757575/fff.png" class="rounded" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-3">
-                    <div class="card border border-primary mb-3">
-                        <div class="card-header bg-primary text-white fw-bold">
-                            Widget Header
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Widget Link</li>
-                            <li class="list-group-item">Widget Link</li>
-                            <li class="list-group-item">Widget Link</li>
-                            <li class="list-group-item">Widget Link</li>
-                        </ul>
-                    </div>
-                    <div class="card border border-primary">
-                        <div class="card-header bg-primary text-white fw-bold">
-                            Widget Header
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, vero sapiente.
-                                Nesciunt minus, praesentium non molestiae deleniti laboriosam inventore numquam.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <footer class="bg-dark text-white p-3 text-center">&copy; 2022 - Universitas Pelita Bangsa @ Reza Riyaldi
-                Irawan</footer>
+    <div class="container shadow p-0">
+        <div class="judul p-3">
+            <h2 style="color: rgb(206, 206, 206);">Layout Sederhana</h2>
         </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: purple;">
+            <div class="container p-0">
+                <button class="navbar-toggler ms-auto m-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner py-5">
+            <h1 class="fw-light">Hello World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius libero reprehenderit, deleniti eum,
+                voluptatum quis magni quibusdam debitis nostrum quidem at totam sapiente voluptatibus minima, nobis est
+                ut ab facere? Illo eveniet rerum dicta ullam eos laborum, reiciendis beatae magni totam a ex earum odio
+                enim vel, quis quisquam. Quia?</p>
+            <a href="#" class="btn" style="background-color: purple; color: white;">Learn More</a>
+        </div>
+
+        <div class="row m-0 my-4">
+            <div class="col-md-9">
+                <div class="row m-0">
+                    <div class="col-md-4 text-center">
+                        <img src="https://dummyimage.com/120x120/00ffaa/000000.png" class="rounded-circle mb-3" alt="">
+                        <h5>Heading</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn-secondary btn-sm">View Detail</button>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <img src="https://dummyimage.com/120x120/fa11c0/000000.png" class="rounded-circle mb-3" alt="">
+                        <h5>Heading</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn-secondary btn-sm">View Detail</button>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <img src="https://dummyimage.com/120x120/eaff00/000000.png" class="rounded-circle mb-3" alt="">
+                        <h5>Heading</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <button class="btn btn-secondary btn-sm">View Detail</button>
+                    </div>
+                </div>
+
+                <div class="my-4">
+                    <h2 class="mb-3">First Featurette Heading</h2>
+                    <div class="d-flex">
+                        <img src="https://dummyimage.com/150x150/1f1f1f/ffffff.png" class="rounded me-3" alt="">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus accusamus iste nostrum
+                            blanditiis aliquid, corrupti nihil quod harum minima labore adipisci nobis quos obcaecati
+                            perferendis eveniet modi numquam ut dolor unde voluptate libero architecto, odio nemo. Amet
+                            adipisci incidunt nesciunt ea, sint ut sequi, deleniti, vero tenetur cupiditate doloribus
+                            illo illum quasi omnis error hic autem numquam suscipit nostrum magnam?</p>
+                    </div>
+                </div>
+
+                <div class="my-4">
+                    <h2 class="mb-3">First Featurette Heading</h2>
+                    <div class="d-flex">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus accusamus iste nostrum
+                            blanditiis aliquid, corrupti nihil quod harum minima labore adipisci nobis quos obcaecati
+                            perferendis eveniet modi numquam ut dolor unde voluptate libero architecto, odio nemo. Amet
+                            adipisci incidunt nesciunt ea, sint ut sequi, deleniti, vero tenetur cupiditate doloribus
+                            illo illum quasi omnis error hic autem numquam suscipit nostrum magnam?</p>
+                        <img src="https://dummyimage.com/150x150/1f1f1f/ffffff.png" class="rounded ms-3" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <!-- Widget 1 -->
+                <div class="card border-0 mb-3">
+                    <div class="card-header text-center fw-bolder" style="background-color: purple; color: white;">
+                        Widget Header
+                    </div>
+                    <ul class="list-group list-group-flush" style="border: 1px solid purple;">
+                        <li class="list-group-item">Widget Link</li>
+                        <li class="list-group-item">Widget Link</li>
+                        <li class="list-group-item">Widget Link</li>
+                        <li class="list-group-item">Widget Link</li>
+                        <li class="list-group-item">Widget Link</li>
+                    </ul>
+                </div>
+
+                <!-- Widget 2 -->
+                <div class="card border-0">
+                    <div class="card-header text-center fw-bolder" style="background-color: purple; color: white;">
+                        Widget Text
+                    </div>
+                    <ul class="list-group list-group-flush" style="border: 1px solid purple;">
+                        <li class="list-group-item">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui neque, architecto aliquam atque
+                            illum tempora quod, et eos repellendus, ea beatae adipisci illo? Officia enim omnis
+                            delectus, laudantium fuga magni.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="bg-dark text-white p-3 text-center">
+            <p class="m-0">&copy; 2022 - Universitas Pelita Bangsa @ Reza Riyaldi</p>
+        </footer>
     </div>
 
 
@@ -213,6 +202,35 @@
 </html>
 ```
 
-2. Maka hasilnya akan seperti berikut.
+2. Tambahkan file css dengan nama `style.css` di dalam folder css, lalu berikan code berikut.
 
-![Hasil](ss.png)
+```css
+/* Navigasi */
+ul li a {
+    padding: 10px 20px !important;
+}
+
+a.active, a.nav-link:hover {
+    background-color: #fa11c0;
+}
+
+
+/* Banner */
+.banner {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+```
+
+3. Maka hasilnya akan seperti berikut.
+
+![Hasil](img/ss1.png)
+
+![Hasil](img/ss2.png)
+
+![Hasil](img/ss3.png)
