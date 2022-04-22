@@ -110,21 +110,21 @@
         <div class="row m-0 my-4">
             <div class="col-md-9">
                 <div class="row m-0">
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center mb-4">
                         <img src="https://dummyimage.com/120x120/00ffaa/000000.png" class="rounded-circle mb-3" alt="">
                         <h5>Heading</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <button class="btn btn-secondary btn-sm">View Detail</button>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center mb-4">
                         <img src="https://dummyimage.com/120x120/fa11c0/000000.png" class="rounded-circle mb-3" alt="">
                         <h5>Heading</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                         <button class="btn btn-secondary btn-sm">View Detail</button>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-4 text-center mb-4">
                         <img src="https://dummyimage.com/120x120/eaff00/000000.png" class="rounded-circle mb-3" alt="">
                         <h5>Heading</h5>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
